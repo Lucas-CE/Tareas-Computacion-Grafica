@@ -1,0 +1,18 @@
+Nombre: Lucas Carrasco
+
+El codigo fue principalmente basado en los ejemplos mostrados en las clases auxiliares,
+en el mismo codigo se comenta sobre esto, en main.py. en especifico.
+
+ATENCION
+Un gran problema a priori que he tenido con la tarea, es que me lanza pantallazos azules
+despues de correrla a veces, por lo que tener precaucion (no estoy 100% seguro que correr
+el programa sea la causa).
+
+Un detalle a considerar es que al correrlo se demora ~3 segundos en iniciar.
+
+Las mejoras realizadas fueron 3 puntos:
+1. Cada vez que las esferas colisionan entre si, se crea una nueva esfera, pero con un maximo definido
+   en el archivo constant.py
+2. Al presionar espacio, la camara se posiciona justo enfrente de una esfera, y la camara apunta hacia
+   donde la esfera avanza, por lo que simula el POV de una esfera.
+3. Las esferas poseen textura de Jupiter.
