@@ -1,7 +1,6 @@
 import numpy as np
 from OpenGL.GL import *
 import libs.constant as C
-import math
 
 SIZE_IN_BYTES = C.SIZE_IN_BYTES
 

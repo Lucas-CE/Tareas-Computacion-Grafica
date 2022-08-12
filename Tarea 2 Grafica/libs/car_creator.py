@@ -23,7 +23,7 @@ def createCar(colorPipeline):
 
     #Se crea un nodo que contendra el gpu del auto y las transformaciones para dejarlo en su estado
     #inicial
-    car = sg.SceneGraphNode('system-car')
+    car = sg.SceneGraphNode('system-carNew')
     car.childs += [gpuCar]
     car.transform = tr.matmul([tr.uniformScale(0.10), tr.rotationZ(np.pi), tr.rotationX(np.pi/2)])
 
